@@ -473,7 +473,7 @@ client.registry
 	.registerDefaults()
 	.registerCommandsIn(path.join(__dirname, 'commands'));
 
-client.login(bot.token);
+client.login(precess.env.BOT_TOKEN2);
 
 
 async function syncGuildCounts() {
